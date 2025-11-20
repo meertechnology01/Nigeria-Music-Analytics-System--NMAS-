@@ -1,0 +1,67 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation (not needed in container)
+docs/
+README.md
+*.md
+
+# Development files
+.env.example
+.env.local
+
+# Test files
+tests/
+*_test.py
+test_*.py
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Database (use volumes instead)
+data/*.db
+data/*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archived materials
+archived/
